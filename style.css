@@ -1,0 +1,156 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+:root{
+    
+    --color-dark: #1D2231;
+    --text-grey:#8390A2;
+}
+
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+    
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+
+}
+header{
+    margin-right: 10px;
+}
+.navbar{
+    background-color: rgb(214, 103, 103);
+    padding: 3px 17px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    margin: 3px 3px;
+    float: right;
+    list-style: none;
+    padding: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+
+}
+.sidebar{
+    box-sizing: border-box;
+    background-color: white;
+    width: 345px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+}
+.nav-menu{
+    margin-left: 345px;
+}
+.sidebar-menu{
+    position: absolute;
+    top: 25px;
+    bottom: 50px;
+    height: 90px;
+    padding: 5rem 5rem;
+}
+
+.sidebar-menu li{
+   width: 100%;
+   padding: 3px 3px;
+   margin-bottom: 1.3rem;
+   padding left: 2rem;
+}
+.sidebar-menu a{
+    
+    display: block;
+    font-size: 20px;
+}
+.sidebar-menu a span{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+main{
+    padding: 2rem 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh-90px);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+    X
+}
+.card-single{
+
+    display: flex;
+    justify-content:space-between;
+    background:#fff;
+    padding:2rem;
+    border-radius:2px;
+}
+element.style{
+    width: 800px;
+    height: 400px;
+}
+table{
+    border-collapse: collapse;
+}
+.recent-grid{
+    margin-top: 3.5rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 70% auto;
+}
+.card{
+    background: #fff;
+}
+
+.calendar-wrapper {
+    max-width: 280px;
+    font: 100% system-ui;
+  }
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .first-day {
+    grid-column-start: 3;
+  }
+  
+  
+  .day-name {
+    background: #eee;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  li {
+    padding: 2px;
+  }
+  h2{
+      margin: 28px;
+  }
+  
